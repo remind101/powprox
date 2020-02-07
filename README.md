@@ -1,5 +1,7 @@
 # Powprox: Nginx proxy for Pow apps
 
+(Forked to remove --with-http2 flag on nginx brew install that is no longer working)
+
 * Serve Pow apps with SSL and HTTP/2
 * Doesn't muck with your Pow setup at all. Only port 443 is proxied, not port 80.
 * No certificate mismatch errors in the browser
